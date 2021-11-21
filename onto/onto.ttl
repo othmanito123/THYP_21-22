@@ -1,1 +1,87 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+@prefix mo: <http://data.press.net/ontology/asset#>.
+@prefix jdc: <https://jardindesconnaissances.univ-paris8.fr/onto/onto#> .
+
+<https://jardindesconnaissances.univ-paris8.fr/onto/onto#> a owl:Ontology ;
+    dcterms:title "Jardin des connaissances" .
+
+
+
+jdc:Doc a rdfs:Class ;
+    rdfs:label "Doc" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:Press a rdfs:Class ;
+    rdfs:label "Transcription" ;
+    rdfs:domain o:Resource ;
+    owl:sameAs mo:Transcription;
+    vs:term_status "experimental" .
+
+jdc:x a rdf:Property ;
+    rdfs:label "x" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+jdc:degradName a rdf:Property ;
+    rdfs:label "degradName" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:creationDate a rdf:Property ;
+    rdfs:label "creationDate" ;
+    rdfs:domain o:Resource .
+
+jdc:creationImage a rdf:Property ;
+    rdfs:label "creationImage" ;
+    rdfs:domain o:Resource .
+
+jdc:creationVideo a rdf:Property ;
+    rdfs:label "creationVideo" ;
+    rdfs:domain o:Resource .
+
+
+jdc:hasActant a rdf:Property ;
+    rdfs:label "a comme actant" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:hasDoc a rdf:Property ;
+    rdfs:label "a comme document" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+jdc:hasRapport a rdf:Property ;
+    rdfs:label "a comme rapport" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:hasCrible a rdf:Property ;
+    rdfs:label "a comme crible" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:cribleLabel a rdf:Property ;
+    rdfs:label "cribleLabel" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:cribleId a rdf:Property ;
+    rdfs:label "cribleId" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:hasCribleCarto a rdf:Property ;
+    rdfs:label "a comme cartographie" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
