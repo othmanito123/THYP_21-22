@@ -6,82 +6,73 @@
 @prefix o: <http://omeka.org/s/vocabs/o#> .
 @prefix ma: <http://www.w3.org/ns/ma-ont#>.
 @prefix mo: <http://data.press.net/ontology/asset#>.
-@prefix jdc: <https://jardindesconnaissances.univ-paris8.fr/onto/onto#> .
+@prefix onto: <https://github.com/othmanito123/THYP_21-22/tree/main/onto//#> .
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/onto#> a owl:Ontology ;
-    dcterms:title "Jardin des connaissances" .
+<https://github.com/othmanito123/THYP_21-22/tree/main/onto#> a owl:Ontology ;
+    dcterms:title "Press onto" .
 
 
 
-jdc:Doc a rdfs:Class ;
-    rdfs:label "Doc" ;
+onto:Authentification a rdfs:Class ;
+    rdfs:label "Authentification" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:Press a rdfs:Class ;
+onto:reservation a rdfs:Class ;
     rdfs:label "Transcription" ;
     rdfs:domain o:Resource ;
     owl:sameAs mo:Transcription;
     vs:term_status "experimental" .
 
-jdc:x a rdf:Property ;
-    rdfs:label "x" ;
+onto:mdp a rdf:Property ;
+    rdfs:label "mdp" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 
-jdc:degradName a rdf:Property ;
+onto:date a rdf:Property ;
     rdfs:label "degradName" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:creationDate a rdf:Property ;
-    rdfs:label "creationDate" ;
+
+onto:Image a rdf:Property ;
+    rdfs:label "Image" ;
     rdfs:domain o:Resource .
 
-jdc:creationImage a rdf:Property ;
-    rdfs:label "creationImage" ;
-    rdfs:domain o:Resource .
-
-jdc:creationVideo a rdf:Property ;
-    rdfs:label "creationVideo" ;
+onto:Video a rdf:Property ;
+    rdfs:label "Video" ;
     rdfs:domain o:Resource .
 
 
-jdc:hasActant a rdf:Property ;
-    rdfs:label "a comme actant" ;
+onto:facture a rdf:Property ;
+    rdfs:label "facture" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:hasDoc a rdf:Property ;
-    rdfs:label "a comme document" ;
+onto:Doc a rdf:Property ;
+    rdfs:label "Doc" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 
 
-jdc:hasRapport a rdf:Property ;
-    rdfs:label "a comme rapport" ;
+onto:Rapport a rdf:Property ;
+    rdfs:label "Rapport" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:hasCrible a rdf:Property ;
-    rdfs:label "a comme crible" ;
+
+
+
+
+onto:Id a rdf:Property ;
+    rdfs:label "Id" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-jdc:cribleLabel a rdf:Property ;
-    rdfs:label "cribleLabel" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:cribleId a rdf:Property ;
-    rdfs:label "cribleId" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-jdc:hasCribleCarto a rdf:Property ;
-    rdfs:label "a comme cartographie" ;
+onto:Carto a rdf:Property ;
+    rdfs:label "Cartographie" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
