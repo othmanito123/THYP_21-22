@@ -1,0 +1,82 @@
+{
+    "o:label": "Pressauthentification",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Se connecter",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": "Authentification",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        },
+        {
+            "o:alternate_label": "Nom de compte",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/THYP_21-22\/tree\/main\/onto\/\/#",
+            "vocabulary_label": "Pressontho",
+            "local_name": "ndc",
+            "label": "nom de compte"
+        },
+        {
+            "o:alternate_label": "Mot de passe",
+            "o:alternate_comment": null,
+            "o:is_required": true,
+            "o:is_private": true,
+            "data_types": [
+                {
+                    "name": "literal",
+                    "label": "Text"
+                }
+            ],
+            "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/THYP_21-22\/tree\/main\/onto\/\/#",
+            "vocabulary_label": "Pressontho",
+            "local_name": "mdp",
+            "label": "mot de passe"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/THYP_21-22\/tree\/main\/onto\/\/#",
+        "vocabulary_label": "Pressontho",
+        "local_name": "Authentification",
+        "label": "Authentification"
+    },
+    "o:title_property": {
+        "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+        "vocabulary_label": "Dublin Core",
+        "local_name": "title",
+        "label": "Title"
+    },
+    "o:description_property": {
+        "vocabulary_namespace_uri": "https:\/\/github.com\/othmanito123\/THYP_21-22\/tree\/main\/onto\/\/#",
+        "vocabulary_label": "Pressontho",
+        "local_name": "mdp",
+        "label": "mot de passe"
+    }
+}
