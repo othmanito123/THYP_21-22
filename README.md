@@ -2,6 +2,7 @@
 
 ## Lien vocabulaire
 ---
+https://github.com/othmanito123/THYP_21-22/blob/main/onto/onto.ttl
 
 ## Lien ex1 index html
 ---
