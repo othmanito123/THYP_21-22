@@ -1,9 +1,30 @@
-https://github.com/othmanito123/THYP_21-22/blob/main/Projet.md
+# THYP _21-22
 
-https://github.com/othmanito123/THYP_21-22/blob/main/omk/index.html
+## Lien vocabulaire
+---
+
+## Lien ex1 index html
+---
 
 https://github.com/othmanito123/THYP_21-22/blob/main/ex1/index.html
 
+## Lien api 
+---
+http://localhost/omeka-s/api/items
+
 http://localhost/omeka-s/api/items/1
 
-http://localhost/omeka-s/api/items
+## Lien projet md
+---
+
+https://github.com/othmanito123/THYP_21-22/blob/main/Projet.md
+
+## Lien index.html omk
+---
+
+https://github.com/othmanito123/THYP_21-22/blob/main/omk/index.html
+
+
+
+
+
